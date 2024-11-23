@@ -1,6 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://d1eo7qppu2wee"]
+[gd_scene load_steps=9 format=3 uid="uid://d1eo7qppu2wee"]
 
 [ext_resource type="PackedScene" uid="uid://kq4ejyxsirbk" path="res://Assets/BarrelAndBox/BarrelAndBox.fbx" id="1_2orqt"]
+[ext_resource type="PackedScene" uid="uid://dmb34xed8iwxo" path="res://Scenes/Player.tscn" id="2_awlkp"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_kw80l"]
 size = Vector3(300, 110, 1)
@@ -16,6 +17,8 @@ size = Vector2(300, 180)
 
 [sub_resource type="BoxMesh" id="BoxMesh_75oes"]
 size = Vector3(10, 10, 10)
+
+[sub_resource type="BoxMesh" id="BoxMesh_fh6rp"]
 
 [node name="Main" type="Node3D"]
 
@@ -63,3 +66,10 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.20137, 53.16, -53.3072)
 light_energy = 8.75
 spot_range = 60.8719
 spot_angle = 44.7736
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 23.0048, -20.343)
+mesh = SubResource("BoxMesh_fh6rp")
+
+[node name="Player" parent="." instance=ExtResource("2_awlkp")]
+transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, 0, -171.029, 0)
