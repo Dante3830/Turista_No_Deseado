@@ -1,0 +1,16 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1732366827
+icon.svg::CompressedTexture2D::2132918512801681411::1732362349::1732366124::1::::<><>::
+::res://Assets/::1732366794
+::res://Assets/BarrelAndBox/::1732366799
+BarrelAndBox.fbx::PackedScene::736686927265987504::1727889751::1732366833::1::::<><>::uid://b5kbvqpej1bot::::res://Assets/BarrelAndBox/BarrelAndBox_0.png<>uid://dpykmwlligccx::::res://Assets/BarrelAndBox/BarrelAndBox_1.png
+BarrelAndBox.obj::Mesh::9042296041943137666::1727889861::1732366829::1::::<><>::
+BarrelAndBox_0.png::CompressedTexture2D::4512828852779900435::1732366830::1732366833::1::::<><>::
+BarrelAndBox_1.png::CompressedTexture2D::8262269544219017267::1732366831::1732366833::1::::<><>::
+::res://Assets/BarrelAndBox/texture/::1727889707
+Barrel_iron_BaseColor.png::CompressedTexture2D::1536086837547347353::1727886053::1732366829::1::::<><>::
+Barrel_plank_BaseColor.png::CompressedTexture2D::208076389405138620::1727886053::1732366829::1::::<><>::
+Box_plank_BaseColor.png::CompressedTexture2D::3264324482952837101::1727886053::1732366829::1::::<><>::
+::res://Scenes/::1732366816
+Main.tscn::PackedScene::8993337544243084828::1732366816::0::1::::<><>::
+::res://Scripts/::1732362528
